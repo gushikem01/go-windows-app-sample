@@ -12,9 +12,9 @@ import (
 
 func main() {
 
-	mainApp := app.New()
 	env := os.Getenv("DISPLAY")
 	fmt.Println("DISPLAY:", env)
+	mainApp := app.New()
 
 	w := mainApp.NewWindow("Sample")
 	w.Resize(fyne.NewSize(200, 30))

@@ -12,7 +12,7 @@
       "program": "${workspaceFolder}",
       "args": [],
       "env": {
-        "DISPLAY": "(YOURIPADDRESS):0.0",
+        "DISPLAY": "172.31.160.1:0.0",
         "GO_ENV": "development",
         "MODE": "development",
         "APP_VERSION": "v1.0.0",
