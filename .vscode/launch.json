@@ -12,11 +12,12 @@
       "program": "${workspaceFolder}",
       "args": [],
       "env": {
-        "DISPLAY": "172.31.160.1:0.0",
+        "DISPLAY": "172.23.160.1:0.0",
         "GO_ENV": "development",
         "MODE": "development",
         "APP_VERSION": "v1.0.0",
-        "GITHUB_ROPOSITORY": "tools"
+        "GITHUB_ROPOSITORY": "tools",
+        "PKG_CONFIG_PATH": "/usr/lib/x86_64-linux-gnu/pkgconfig"
       }
     },
   ]
